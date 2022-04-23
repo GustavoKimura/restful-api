@@ -1,0 +1,27 @@
+{
+  "name": "restful-api",
+  "version": "1.0.0",
+  "description": "A project from an RESTful API course.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app.js localhost 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoKimura/restful-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GustavoKimura/restful-api/issues"
+  },
+  "homepage": "https://github.com/GustavoKimura/restful-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.1",
+    "nodemon": "^2.0.15"
+  }
+}
